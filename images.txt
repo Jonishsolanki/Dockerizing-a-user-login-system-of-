@@ -1,0 +1,7 @@
+docker pull jonishsolanki199/userdata for databases 
+docker pull jonishsolanki199/uploadapp 
+for running uploadapp 
+    you need to create a  volume with Files name or any name
+    then run 
+    docker container run -itd -p8005:80 --mount source=volume_name,destination=/Files/ jonishsolanki199/uploadapp
+    
